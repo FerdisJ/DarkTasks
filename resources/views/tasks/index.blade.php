@@ -10,7 +10,7 @@
             @endif
 
             <div class="flex justify-between mb-4">
-                <h1 class="text-2xl font-bold">Task Manager</h1>
+                <h1 class="text-2xl font-bold">Dark Tasks</h1>
                 <a href="{{ route('tasks.create') }}" class="bg-blue-500 text-white px-4 py-2 rounded">
                     Nueva tarea
                 </a>
