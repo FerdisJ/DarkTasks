@@ -17,6 +17,6 @@ class TaskPageTest extends TestCase  // <-- Este nombre
         $response = $this->actingAs($user)->get('/tasks');
 
         $response->assertStatus(200);
-        $response->assertSee('Task Manager');
+        $response->assertSee('Dark Tasks');
     }
 }
